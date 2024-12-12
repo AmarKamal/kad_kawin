@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kad Jemputan Perkahwinan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #fff;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .bismillah {
+            font-size: 24px;
+            color: #8e44ad;
+            margin-bottom: 20px;
+        }
+        .names {
+            font-size: 32px;
+            color: #2c3e50;
+            margin: 20px 0;
+        }
+        .details {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .details div {
+            margin: 15px 0;
+        }
+        .map-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .map-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .map-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #8e44ad;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .map-button:hover {
+            background-color: #732d91;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        /* Placeholder image styling */
+        .couple-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
+            <img src="/api/placeholder/200/200" alt="Couple Photo" class="couple-image">
+            <div class="names">Ahmad & Siti</div>
+            <p>Dengan penuh kesyukuran ke hadrat Ilahi,<br>kami mengundang Tuan/Puan ke majlis perkahwinan</p>
+        </div>
+
+        <div class="details">
+            <div><strong>Tarikh:</strong> Sabtu, 15 Jun 2024</div>
+            <div><strong>Masa:</strong> 11:00 pagi - 4:00 petang</div>
+            <div><strong>Tempat:</strong> Dewan Serbaguna Taman Melati<br>
+                Jalan Taman Melati 1<br>
+                Taman Melati<br>
+                53100 Kuala Lumpur
+            </div>
+            <div><strong>Tetamu:</strong> Semua dijemput hadir</div>
+        </div>
+
+        <div class="map-container">
+            <h3>Lokasi</h3>
+            <!-- Placeholder for map -->
+            <img src="/api/placeholder/600/300" alt="Location Map">
+            <div class="map-buttons">
+                <a href="https://waze.com/ul?ll=3.2127,101.7378" class="map-button">Buka dalam Waze</a>
+                <a href="https://www.google.com/maps?q=3.2127,101.7378" class="map-button">Buka dalam Google Maps</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Kehadiran anda amat dihargai.<br>
+            Mohon doa restu agar majlis ini diberkati.</p>
+        </div>
+    </div>
+</body>
+</html>
